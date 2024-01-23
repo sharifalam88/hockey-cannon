@@ -4,13 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Hockey Cannon </title>
+    <!-- Custom style -->
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 
     <!-- link tailwind and daisy ui-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom button and color code -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'web-primary': '#FF4240',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    <h2>hello everyone</h2>
+    <!-- Start header section -->
+    <header class="mx-5 my-5 md:container md:mx-auto">
+        <!-- header logo and nav part -->
+            <div class="navbar bg-white">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-60">
+                            <li class="focus:text-red-600  text-[#424247] font-normal text-base"><a>Home</a></li>
+                            <li class="text-[#424247] font-normal text-base"><a>Page</a></li>
+                            <li class="text-[#424247] font-normal text-base"><a>Blogs</a></li>
+                            <li class="text-[#424247] font-normal text-base"><a>About Us</a></li>
+                            <li class="text-[#424247] font-normal text-base"><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+
+
+                  <h2 class="text-medium md:text-4xl font-extrabold text-[#131318]">Hockey <span class="text-red-600">Cannon </span></h2>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-[#424247] font-normal text-base hover:text-red-600 hover:font-bold"><a>Home</a></li>
+                    <li class="text-[#424247] font-normal text-base hover:text-red-600 hover:font-bold"><a>Page</a></li>
+                    <li class="text-[#424247] font-normal text-base hover:text-red-600 hover:font-bold"><a>Blogs</a></li>
+                    <li class="text-[#424247] font-normal text-base hover:text-red-600 hover:font-bold"><a>About Us</a></li>
+                    <li class="text-[#424247] font-normal text-base hover:text-red-600 hover:font-bold"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                      </button>
+                  <a class="bg-web-primary rounded-lg px-6 py-4 text-white font-bold text-xl ml-5 ">Get Ticket</a>
+                </div>
+              </div>
+        <!-- header slider part -->
+        <div>
+            
+        </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- Start main section -->
+    <main>
+        
+    </main>
+    <!-- End main section -->
+
+    <!-- Start footer section -->
+    <footer> 
+
+    </footer>
+    <!-- End footer section -->
 </body>
 </html>
